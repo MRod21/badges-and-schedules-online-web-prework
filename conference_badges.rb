@@ -25,4 +25,6 @@ def printer(array)
     puts name
   end
   
+  assign_rooms(array)
+  assign_rooms
   
