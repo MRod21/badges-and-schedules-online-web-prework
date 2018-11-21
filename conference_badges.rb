@@ -13,8 +13,8 @@ end
 def assign_rooms(array)
   new_array = []
   room = 1
-  array.each do |name|
-    new_array.push("Hello, #{name}! You'll be assigned to room #{room}!")
+  array.each do |attendees|
+    new_array.push("Hello, #{attendees}! You'll be assigned to room #{room}!")
     room += 1 
   end
   return new_array
